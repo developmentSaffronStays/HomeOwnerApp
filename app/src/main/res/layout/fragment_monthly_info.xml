@@ -1,0 +1,35 @@
+<!-- Created By: Vinay Verma, SaffronStays -->
+<!--this file defines the layout for monthly fragment-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="vinayapphost3.apphost3.MonthlyInfoFrag">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/activity_top_margin"
+            android:paddingBottom="@dimen/activity_bottom_margin"
+            android:layout_weight="0.16">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/listViewMonthly"
+                android:background="@drawable/back"
+                android:divider="@drawable/divider"
+                android:dividerHeight="2px"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

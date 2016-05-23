@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By: Vinay Verma, SaffronStays -->
+<!--this file defines the layout for expense fragment when pendings are also there-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/activity_top_margin"
+            android:paddingBottom="@dimen/activity_bottom_margin"
+            >
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/listViewImp"
+                android:background="@drawable/back"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@drawable/divider"
+                android:dividerHeight="2px"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/listViewAppImp"
+                android:background="@drawable/back"
+                android:divider="@drawable/divider"
+                android:dividerHeight="2px"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

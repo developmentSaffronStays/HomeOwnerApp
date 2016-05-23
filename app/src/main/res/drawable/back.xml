@@ -1,0 +1,6 @@
+<!-- Created By: Vinay Verma, SaffronStays -->
+<!--this file defines the background properties of tabs-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <solid android:color="#FFF9EA" />
+    <stroke android:width="1dip" android:color="#FBA666"/>
+</shape>

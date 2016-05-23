@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By: Vinay Verma, SaffronStays -->
+<!--this file defines the color properties of app -->
+<resources>
+    <color name="colorPrimary">#FBA666</color>
+    <color name="colorPrimaryDark">#FBA666</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#FFff81</color>
+    <color name="grossMarginColor">#2233AA</color>
+    <color name="textColorPrimary">#FFff81</color>
+</resources>

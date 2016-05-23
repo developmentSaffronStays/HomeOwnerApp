@@ -1,0 +1,20 @@
+<!-- Created By: Vinay Verma, SaffronStays-->
+<!--this file defines the different string variables -->
+<resources>
+    <string name="app_name">SaffronStays</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_login">Sign In</string>
+    <string name="signin">Go for SignIn</string>
+
+    <!-- Strings related to login -->
+    <string name="username">Enter Username/email</string>
+    <string name="password">Enter Password</string>
+    <string name="blogin">Sign In</string>
+
+    <!-- Strings related to view listing -->
+    <string name="change">change username/password</string>
+
+</resources>

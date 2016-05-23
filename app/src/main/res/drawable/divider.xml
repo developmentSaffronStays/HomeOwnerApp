@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By: Vinay Verma, SaffronStays -->
+<!--this file defines the properties of divider between two list items in liast of any tab-->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <gradient
+            android:angle="180"
+            android:startColor="#00000000"
+            android:centerColor="#FBA919"
+            android:endColor="#00000000"/>
+    </shape>
